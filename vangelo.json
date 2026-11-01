@@ -1,8 +1,454 @@
 {
- "data": "2026-11-01",
- "celebrazione": "TUTTI I SANTI – SOLENNITÀ",
- "tipo": "Solennità",
- "colore": "bianco",
- "riferimento": "Mt 5,1-12a",
- "vangelo": "In quel tempo, vedendo le folle, Gesù salì sul monte: si pose a sedere e si avvicinarono a lui i suoi discepoli. Si mise a parlare e insegnava loro dicendo:\n«Beati i poveri in spirito,\nperché di essi è il regno dei cieli.\nBeati quelli che sono nel pianto,\nperché saranno consolati.\nBeati i miti,\nperché avranno in eredità la terra.\nBeati quelli che hanno fame e sete della giustizia,\nperché saranno saziati.\nBeati i misericordiosi,\nperché troveranno misericordia.\nBeati i puri di cuore,\nperché vedranno Dio.\nBeati gli operatori di pace,\nperché saranno chiamati figli di Dio.\nBeati i perseguitati per la giustizia,\nperché di essi è il regno dei cieli.\nBeati voi quando vi insulteranno, vi perseguiteranno e, mentendo, diranno ogni sorta di male contro di voi per causa mia. Rallegratevi ed esultate, perché grande è la vostra ricompensa nei cieli»."
+ "generato": "2026-11-01T15:00+01:00",
+ "giorni": [
+  {
+   "data": "2026-11-01",
+   "celebrazione": "TUTTI I SANTI – SOLENNITÀ",
+   "tipo": "Solennità",
+   "colore": "bianco",
+   "riferimento": "Mt 5,1-12a",
+   "vangelo": "In quel tempo, vedendo le folle, Gesù salì sul monte: si pose a sedere e si avvicinarono a lui i suoi discepoli. Si mise a parlare e insegnava loro dicendo:\n«Beati i poveri in spirito,\nperché di essi è il regno dei cieli.\nBeati quelli che sono nel pianto,\nperché saranno consolati.\nBeati i miti,\nperché avranno in eredità la terra.\nBeati quelli che hanno fame e sete della giustizia,\nperché saranno saziati.\nBeati i misericordiosi,\nperché troveranno misericordia.\nBeati i puri di cuore,\nperché vedranno Dio.\nBeati gli operatori di pace,\nperché saranno chiamati figli di Dio.\nBeati i perseguitati per la giustizia,\nperché di essi è il regno dei cieli.\nBeati voi quando vi insulteranno, vi perseguiteranno e, mentendo, diranno ogni sorta di male contro di voi per causa mia. Rallegratevi ed esultate, perché grande è la vostra ricompensa nei cieli».",
+   "letture": [
+    {
+     "nome": "Prima lettura",
+     "fonte": "Dal libro dell’Apocalisse di san Giovanni apostolo",
+     "testo": "9-14\nIo, Giovanni, vidi salire dall’oriente un altro angelo, con il sigillo del Dio vivente. E gridò a gran voce ai quattro angeli, ai quali era stato concesso di devastare la terra e il mare: «Non devastate la terra né il mare né le piante, finché non avremo impresso il sigillo sulla fronte dei servi del nostro Dio».\nE udii il numero di coloro che furono segnati con il sigillo: centoquarantaquattromila segnati, provenienti da ogni tribù dei figli d’Israele.\nDopo queste cose vidi: ecco, una moltitudine immensa, che nessuno poteva contare, di ogni nazione, tribù, popolo e lingua. Tutti stavano in piedi davanti al trono e davanti all’Agnello, avvolti in vesti candide, e tenevano rami di palma nelle loro mani. E gridavano a gran voce: «La salvezza appartiene al nostro Dio, seduto sul trono, e all’Agnello».\nE tutti gli angeli stavano attorno al trono e agli anziani e ai quattro esseri viventi, e si inchinarono con la faccia a terra davanti al trono e adorarono Dio dicendo: «Amen! Lode, gloria, sapienza, azione di grazie, onore, potenza e forza al nostro Dio nei secoli dei secoli. Amen».\nUno degli anziani allora si rivolse a me e disse: «Questi, che sono vestiti di bianco, chi sono e da dove vengono?». Gli risposi: «Signore mio, tu lo sai». E lui: «Sono quelli che vengono dalla grande tribolazione e che hanno lavato le loro vesti, rendendole candide nel sangue dell’Agnello»."
+    },
+    {
+     "nome": "Salmo responsoriale",
+     "fonte": "Dal Sal 23 (24)",
+     "testo": "R.\nEcco la generazione che cerca il tuo volto, Signore.\nDel Signore è la terra e quanto contiene:\nil mondo, con i suoi abitanti.\nÈ lui che l’ha fondato sui mari\ne sui fiumi l’ha stabilito.\nR.\nChi potrà salire il monte del Signore?\nChi potrà stare nel suo luogo santo?\nChi ha mani innocenti e cuore puro,\nchi non si rivolge agli idoli.\nR.\nEgli otterrà benedizione dal Signore,\ngiustizia da Dio sua salvezza.\nEcco la generazione che lo cerca,\nche cerca il tuo volto, Dio di Giacobbe.\nR."
+    },
+    {
+     "nome": "Seconda lettura",
+     "fonte": "Dalla prima lettera di san Giovanni apostolo",
+     "testo": "1Gv 3,1-3\nCarissimi, vedete quale grande amore ci ha dato il Padre per essere chiamati figli di Dio, e lo siamo realmente! Per questo il mondo non ci conosce: perché non ha conosciuto lui.\nCarissimi, noi fin d’ora siamo figli di Dio, ma ciò che saremo non è stato ancora rivelato. Sappiamo però che quando egli si sarà manifestato, noi saremo simili a lui, perché lo vedremo così come egli è.\nChiunque ha questa speranza in lui, purifica se stesso, come egli è puro."
+    },
+    {
+     "nome": "Canto al Vangelo",
+     "fonte": "",
+     "testo": "Alleluia, alleluia.\nVenite a me,\nvoi tutti che siete stanchi e oppressi,\ne io vi darò ristoro. (\nAlleluia."
+    },
+    {
+     "nome": "Vangelo",
+     "fonte": "Dal Vangelo secondo Matteo",
+     "testo": "In quel tempo, vedendo le folle, Gesù salì sul monte: si pose a sedere e si avvicinarono a lui i suoi discepoli. Si mise a parlare e insegnava loro dicendo:\n«Beati i poveri in spirito,\nperché di essi è il regno dei cieli.\nBeati quelli che sono nel pianto,\nperché saranno consolati.\nBeati i miti,\nperché avranno in eredità la terra.\nBeati quelli che hanno fame e sete della giustizia,\nperché saranno saziati.\nBeati i misericordiosi,\nperché troveranno misericordia.\nBeati i puri di cuore,\nperché vedranno Dio.\nBeati gli operatori di pace,\nperché saranno chiamati figli di Dio.\nBeati i perseguitati per la giustizia,\nperché di essi è il regno dei cieli.\nBeati voi quando vi insulteranno, vi perseguiteranno e, mentendo, diranno ogni sorta di male contro di voi per causa mia. Rallegratevi ed esultate, perché grande è la vostra ricompensa nei cieli».",
+     "riferimento": "Mt 5,1-12a"
+    }
+   ]
+  },
+  {
+   "data": "2026-11-02",
+   "celebrazione": "COMMEMORAZIONE DI TUTTI I FEDELI DEFUNTI",
+   "tipo": "Feria",
+   "colore": "viola",
+   "riferimento": "Gv 6,37-40",
+   "vangelo": "In quel tempo, Gesù disse alla folla:\n«Tutto ciò che il Padre mi dà, verrà a me: colui che viene a me, io non lo caccerò fuori, perché sono disceso dal cielo non per fare la mia volontà, ma la volontà di colui che mi ha mandato.\nE questa è la volontà di colui che mi ha mandato: che io non perda nulla di quanto egli mi ha dato, ma che lo risusciti nell'ultimo giorno.\nQuesta infatti è la volontà del Padre mio: che chiunque vede il Figlio e crede in lui abbia la vita eterna; e io lo risusciterò nell'ultimo giorno».",
+   "letture": [
+    {
+     "nome": "Prima lettura",
+     "fonte": "Dal libro di Giobbe",
+     "testo": "23-27a\nRispondendo Giobbe prese a dire:\n«Oh, se le mie parole si scrivessero,\nse si fissassero in un libro,\nfossero impresse con stilo di ferro e con piombo,\nper sempre s'incidessero sulla roccia!\nIo so che il mio redentore è vivo\ne che, ultimo, si ergerà sulla polvere!\nDopo che questa mia pelle sarà strappata via,\nsenza la mia carne, vedrò Dio.\nIo lo vedrò, io stesso,\ni miei occhi lo contempleranno e non un altro»."
+    },
+    {
+     "nome": "Salmo responsoriale",
+     "fonte": "Dal Sal 26 (27)",
+     "testo": "R.\nSono certo di contemplare la bontà del Signore\nnella terra dei viventi.\nOppure:\nR.\nIl Signore è mia luce e mia salvezza.\nIl Signore è mia luce e mia salvezza:\ndi chi avrò timore?\nIl Signore è difesa della mia vita:\ndi chi avrò paura?\nR.\nUna cosa ho chiesto al Signore,\nquesta sola io cerco:\nabitare nella casa del Signore\ntutti i giorni della mia vita,\nper contemplare la bellezza del Signore\ne ammirare il suo santuario.\nR.\nAscolta, Signore, la mia voce.\nIo grido: abbi pietà di me, rispondimi!\nIl tuo volto, Signore, io cerco.\nNon nascondermi il tuo volto.\nR.\nSono certo di contemplare la bontà del Signore\nnella terra dei viventi.\nSpera nel Signore, sii forte,\nsi rinsaldi il tuo cuore e spera nel Signore.\nR."
+    },
+    {
+     "nome": "Seconda lettura",
+     "fonte": "Dalla lettera di san Paolo apostolo ai Romani",
+     "testo": "Fratelli, la speranza non delude, perché l'amore di Dio è stato riversato nei nostri cuori per mezzo dello Spirito Santo che ci è stato dato.\nInfatti, quando eravamo ancora deboli, nel tempo stabilito Cristo morì per gli empi. Ora, a stento qualcuno è disposto a morire per un giusto; forse qualcuno oserebbe morire per una persona buona. Ma Dio dimostra il suo amore verso di noi nel fatto che, mentre eravamo ancora peccatori, Cristo è morto per noi.\nA maggior ragione ora, giustificàti nel suo sangue, saremo salvati dall'ira per mezzo di lui. Se infatti, quand'eravamo nemici, siamo stati riconciliati con Dio per mezzo della morte del Figlio suo, molto più, ora che siamo riconciliati, saremo salvati mediante la sua vita. Non solo, ma ci gloriamo pure in Dio, per mezzo del Signore nostro Gesù Cristo, grazie al quale ora abbiamo ricevuto la riconciliazione."
+    },
+    {
+     "nome": "Canto al Vangelo",
+     "fonte": "",
+     "testo": "Alleluia, alleluia.\nQuesta è la volontà del Padre mio:\nche chiunque vede il Figlio e crede in lui abbia la vita eterna;\ne io lo risusciterò nell’ultimo giorno, dice il Signore. (\nAlleluia."
+    },
+    {
+     "nome": "Vangelo",
+     "fonte": "Dal Vangelo secondo Giovanni",
+     "testo": "In quel tempo, Gesù disse alla folla:\n«Tutto ciò che il Padre mi dà, verrà a me: colui che viene a me, io non lo caccerò fuori, perché sono disceso dal cielo non per fare la mia volontà, ma la volontà di colui che mi ha mandato.\nE questa è la volontà di colui che mi ha mandato: che io non perda nulla di quanto egli mi ha dato, ma che lo risusciti nell'ultimo giorno.\nQuesta infatti è la volontà del Padre mio: che chiunque vede il Figlio e crede in lui abbia la vita eterna; e io lo risusciterò nell'ultimo giorno».",
+     "riferimento": "Gv 6,37-40"
+    }
+   ]
+  },
+  {
+   "data": "2026-11-03",
+   "celebrazione": "MARTEDÌ DELLA XXXI SETTIMANA DEL TEMPO ORDINARIO",
+   "tipo": "Feria",
+   "colore": "verde",
+   "riferimento": "Lc 14,15-24",
+   "vangelo": "In quel tempo, uno dei commensali, avendo udito questo, disse a Gesù: «Beato chi prenderà cibo nel regno di Dio!».\nGli rispose: «Un uomo diede una grande cena e fece molti inviti. All’ora della cena, mandò il suo servo a dire agli invitati: “Venite, è pronto”. Ma tutti, uno dopo l’altro, cominciarono a scusarsi. Il primo gli disse: “Ho comprato un campo e devo andare a vederlo; ti prego di scusarmi”. Un altro disse: “Ho comprato cinque paia di buoi e vado a provarli; ti prego di scusarmi”. Un altro disse: “Mi sono appena sposato e perciò non posso venire”.\nAl suo ritorno il servo riferì tutto questo al suo padrone. Allora il padrone di casa, adirato, disse al servo: “Esci subito per le piazze e per le vie della città e conduci qui i poveri, gli storpi, i ciechi e gli zoppi”.\nIl servo disse: “Signore, è stato fatto come hai ordinato, ma c’è ancora posto”. Il padrone allora disse al servo: “Esci per le strade e lungo le siepi e costringili ad entrare, perché la mia casa si riempia. Perché io vi dico: nessuno di quelli che erano stati invitati gusterà la mia cena”».",
+   "letture": [
+    {
+     "nome": "Prima lettura",
+     "fonte": "Dalla lettera di san Paolo apostolo ai Filippési",
+     "testo": "Fratelli,\nabbiate in voi gli stessi sentimenti di Cristo Gesù:\negli, pur essendo nella condizione di Dio,\nnon ritenne un privilegio\nl’essere come Dio,\nma svuotò se stesso\nassumendo una condizione di servo,\ndiventando simile agli uomini.\nDall’aspetto riconosciuto come uomo,\numiliò se stesso\nfacendosi obbediente fino alla morte\ne a una morte di croce.\nPer questo Dio lo esaltò\ne gli donò il nome\nche è al di sopra di ogni nome,\nperché nel nome di Gesù\nogni ginocchio si pieghi\nnei cieli, sulla terra e sotto terra,\ne ogni lingua proclami:\n«Gesù Cristo è Signore!»,\na gloria di Dio Padre."
+    },
+    {
+     "nome": "Salmo responsoriale",
+     "fonte": "Dal Sal 21 (22)",
+     "testo": "R.\nDa te, Signore, la mia lode nella grande assemblea.\nOppure:\nR.\nLode a te, Signore, nell’assemblea dei santi.\nScioglierò i miei voti davanti ai suoi fedeli.\nI poveri mangeranno e saranno saziati,\nloderanno il Signore quanti lo cercano;\nil vostro cuore viva per sempre!\nR.\nRicorderanno e torneranno al Signore\ntutti i confini della terra;\ndavanti a te si prostreranno\ntutte le famiglie dei popoli.\nR.\nPerché del Signore è il regno:\nè lui che domina sui popoli!\nA lui solo si prostreranno\nquanti dormono sotto terra.\nR.\nLo servirà la mia discendenza.\nSi parlerà del Signore alla generazione che viene;\nannunceranno la sua giustizia;\nal popolo che nascerà diranno:\n«Ecco l’opera del Signore!».\nR."
+    },
+    {
+     "nome": "Canto al Vangelo",
+     "fonte": "",
+     "testo": "Alleluia, alleluia.\nVenite a me, voi tutti che siete stanchi e oppressi,\ne io vi darò ristoro, dice il Signore. (\nAlleluia."
+    },
+    {
+     "nome": "Vangelo",
+     "fonte": "Dal Vangelo secondo Luca",
+     "testo": "In quel tempo, uno dei commensali, avendo udito questo, disse a Gesù: «Beato chi prenderà cibo nel regno di Dio!».\nGli rispose: «Un uomo diede una grande cena e fece molti inviti. All’ora della cena, mandò il suo servo a dire agli invitati: “Venite, è pronto”. Ma tutti, uno dopo l’altro, cominciarono a scusarsi. Il primo gli disse: “Ho comprato un campo e devo andare a vederlo; ti prego di scusarmi”. Un altro disse: “Ho comprato cinque paia di buoi e vado a provarli; ti prego di scusarmi”. Un altro disse: “Mi sono appena sposato e perciò non posso venire”.\nAl suo ritorno il servo riferì tutto questo al suo padrone. Allora il padrone di casa, adirato, disse al servo: “Esci subito per le piazze e per le vie della città e conduci qui i poveri, gli storpi, i ciechi e gli zoppi”.\nIl servo disse: “Signore, è stato fatto come hai ordinato, ma c’è ancora posto”. Il padrone allora disse al servo: “Esci per le strade e lungo le siepi e costringili ad entrare, perché la mia casa si riempia. Perché io vi dico: nessuno di quelli che erano stati invitati gusterà la mia cena”».",
+     "riferimento": "Lc 14,15-24"
+    }
+   ]
+  },
+  {
+   "data": "2026-11-04",
+   "celebrazione": "SAN CARLO BORROMEO, VESCOVO - MEMORIA",
+   "tipo": "Memoria",
+   "colore": "bianco",
+   "riferimento": "Lc 14,25-33",
+   "vangelo": "In quel tempo, una folla numerosa andava con Gesù. Egli si voltò e disse loro:\n«Se uno viene a me e non mi ama più di quanto ami suo padre, la madre, la moglie, i figli, i fratelli, le sorelle e perfino la propria vita, non può essere mio discepolo. Colui che non porta la propria croce e non viene dietro a me, non può essere mio discepolo.\nChi di voi, volendo costruire una torre, non siede prima a calcolare la spesa e a vedere se ha i mezzi per portarla a termine? Per evitare che, se getta le fondamenta e non è in grado di finire il lavoro, tutti coloro che vedono comincino a deriderlo, dicendo: “Costui ha iniziato a costruire, ma non è stato capace di finire il lavoro”.\nOppure quale re, partendo in guerra contro un altro re, non siede prima a esaminare se può affrontare con diecimila uomini chi gli viene incontro con ventimila? Se no, mentre l’altro è ancora lontano, gli manda dei messaggeri per chiedere pace.\nCosì chiunque di voi non rinuncia a tutti i suoi averi, non può essere mio discepolo».",
+   "letture": [
+    {
+     "nome": "Prima lettura",
+     "fonte": "Dalla lettera di san Paolo apostolo ai Filippési",
+     "testo": "Miei cari, voi che siete stati sempre obbedienti, non solo quando ero presente ma molto più ora che sono lontano, dedicatevi alla vostra salvezza con rispetto e timore. È Dio infatti che suscita in voi il volere e l’operare secondo il suo disegno d’amore.\nFate tutto senza mormorare e senza esitare, per essere irreprensibili e puri, figli di Dio innocenti in mezzo a una generazione malvagia e perversa. In mezzo a loro voi risplendete come astri nel mondo, tenendo salda la parola di vita.\nCosì nel giorno di Cristo io potrò vantarmi di non aver corso invano, né invano aver faticato. Ma, anche se io devo essere versato sul sacrificio e sull’offerta della vostra fede, sono contento e ne godo con tutti voi. Allo stesso modo anche voi godetene e rallegratevi con me."
+    },
+    {
+     "nome": "Salmo responsoriale",
+     "fonte": "Dal Sal 26 (27)",
+     "testo": "R.\nIl Signore è mia luce e mia salvezza.\nIl Signore è mia luce e mia salvezza:\ndi chi avrò timore?\nIl Signore è difesa della mia vita:\ndi chi avrò paura?\nR.\nUna cosa ho chiesto al Signore,\nquesta sola io cerco:\nabitare nella casa del Signore\ntutti i giorni della mia vita,\nper contemplare la bellezza del Signore\ne ammirare il suo santuario.\nR.\nSono certo di contemplare la bontà del Signore\nnella terra dei viventi.\nSpera nel Signore, sii forte,\nsi rinsaldi il tuo cuore e spera nel Signore.\nR."
+    },
+    {
+     "nome": "Canto al Vangelo",
+     "fonte": "",
+     "testo": "Alleluia, alleluia.\nBeati voi, se venite insultati per il nome di Cristo,\nperché lo Spirito di Dio riposa su di voi. (\n1Pt 4,14\nAlleluia."
+    },
+    {
+     "nome": "Vangelo",
+     "fonte": "Dal Vangelo secondo Luca",
+     "testo": "In quel tempo, una folla numerosa andava con Gesù. Egli si voltò e disse loro:\n«Se uno viene a me e non mi ama più di quanto ami suo padre, la madre, la moglie, i figli, i fratelli, le sorelle e perfino la propria vita, non può essere mio discepolo. Colui che non porta la propria croce e non viene dietro a me, non può essere mio discepolo.\nChi di voi, volendo costruire una torre, non siede prima a calcolare la spesa e a vedere se ha i mezzi per portarla a termine? Per evitare che, se getta le fondamenta e non è in grado di finire il lavoro, tutti coloro che vedono comincino a deriderlo, dicendo: “Costui ha iniziato a costruire, ma non è stato capace di finire il lavoro”.\nOppure quale re, partendo in guerra contro un altro re, non siede prima a esaminare se può affrontare con diecimila uomini chi gli viene incontro con ventimila? Se no, mentre l’altro è ancora lontano, gli manda dei messaggeri per chiedere pace.\nCosì chiunque di voi non rinuncia a tutti i suoi averi, non può essere mio discepolo».",
+     "riferimento": "Lc 14,25-33"
+    }
+   ]
+  },
+  {
+   "data": "2026-11-05",
+   "celebrazione": "GIOVEDÌ DELLA XXXI SETTIMANA DEL TEMPO ORDINARIO",
+   "tipo": "Feria",
+   "colore": "verde",
+   "riferimento": "Lc 15,1-10",
+   "vangelo": "In quel tempo, si avvicinavano a Gesù tutti i pubblicani e i peccatori per ascoltarlo. I farisei e gli scribi mormoravano dicendo: «Costui accoglie i peccatori e mangia con loro».\nEd egli disse loro questa parabola: «Chi di voi, se ha cento pecore e ne perde una, non lascia le novantanove nel deserto e va in cerca di quella perduta, finché non la trova? Quando l’ha trovata, pieno di gioia se la carica sulle spalle, va a casa, chiama gli amici e i vicini e dice loro: “Rallegratevi con me, perché ho trovato la mia pecora, quella che si era perduta”. Io vi dico: così vi sarà gioia nel cielo per un solo peccatore che si converte, più che per novantanove giusti i quali non hanno bisogno di conversione.\nOppure, quale donna, se ha dieci monete e ne perde una, non accende la lampada e spazza la casa e cerca accuratamente finché non la trova? E dopo averla trovata, chiama le amiche e le vicine, e dice: “Rallegratevi con me, perché ho trovato la moneta che avevo perduto”. Così, io vi dico, vi è gioia davanti agli angeli di Dio per un solo peccatore che si converte».",
+   "letture": [
+    {
+     "nome": "Prima lettura",
+     "fonte": "Dalla lettera di san Paolo apostolo ai Filippési",
+     "testo": "Fratelli, i veri circoncisi siamo noi, che celebriamo il culto mossi dallo Spirito di Dio e ci vantiamo in Cristo Gesù senza porre fiducia nella carne, sebbene anche in essa io possa confidare.\nSe qualcuno ritiene di poter avere fiducia nella carne, io più di lui: circonciso all’età di otto giorni, della stirpe d’Israele, della tribù di Beniamino, Ebreo figlio di Ebrei; quanto alla Legge, fariseo; quanto allo zelo, persecutore della Chiesa; quanto alla giustizia che deriva dall’osservanza della Legge, irreprensibile.\nMa queste cose, che per me erano guadagni, io le ho considerate una perdita a motivo di Cristo. Anzi, ritengo che tutto sia una perdita a motivo della sublimità della conoscenza di Cristo Gesù, mio Signore."
+    },
+    {
+     "nome": "Salmo responsoriale",
+     "fonte": "Dal Sal 104 (105)",
+     "testo": "R.\nGioisca il cuore di chi cerca il Signore.\nCantate al Signore, a lui inneggiate,\nmeditate tutte le sue meraviglie.\nGloriatevi del suo santo nome:\ngioisca il cuore di chi cerca il Signore.\nR.\nCercate il Signore e la sua potenza,\nricercate sempre il suo volto.\nRicordate le meraviglie che ha compiuto,\ni suoi prodigi e i giudizi della sua bocca.\nR.\nVoi, stirpe di Abramo, suo servo,\nfigli di Giacobbe, suo eletto.\nÈ lui il Signore, nostro Dio:\nsu tutta la terra i suoi giudizi.\nR."
+    },
+    {
+     "nome": "Canto al Vangelo",
+     "fonte": "",
+     "testo": "Alleluia, alleluia.\nVenite a me, voi tutti che siete stanchi e oppressi,\ne io vi darò ristoro, dice il Signore. (\nAlleluia."
+    },
+    {
+     "nome": "Vangelo",
+     "fonte": "Dal Vangelo secondo Luca",
+     "testo": "In quel tempo, si avvicinavano a Gesù tutti i pubblicani e i peccatori per ascoltarlo. I farisei e gli scribi mormoravano dicendo: «Costui accoglie i peccatori e mangia con loro».\nEd egli disse loro questa parabola: «Chi di voi, se ha cento pecore e ne perde una, non lascia le novantanove nel deserto e va in cerca di quella perduta, finché non la trova? Quando l’ha trovata, pieno di gioia se la carica sulle spalle, va a casa, chiama gli amici e i vicini e dice loro: “Rallegratevi con me, perché ho trovato la mia pecora, quella che si era perduta”. Io vi dico: così vi sarà gioia nel cielo per un solo peccatore che si converte, più che per novantanove giusti i quali non hanno bisogno di conversione.\nOppure, quale donna, se ha dieci monete e ne perde una, non accende la lampada e spazza la casa e cerca accuratamente finché non la trova? E dopo averla trovata, chiama le amiche e le vicine, e dice: “Rallegratevi con me, perché ho trovato la moneta che avevo perduto”. Così, io vi dico, vi è gioia davanti agli angeli di Dio per un solo peccatore che si converte».",
+     "riferimento": "Lc 15,1-10"
+    }
+   ]
+  },
+  {
+   "data": "2026-11-06",
+   "celebrazione": "VENERDÌ DELLA XXXI SETTIMANA DEL TEMPO ORDINARIO",
+   "tipo": "Feria",
+   "colore": "verde",
+   "riferimento": "Lc 16,1-8",
+   "vangelo": "In quel tempo, Gesù diceva ai discepoli:\n«Un uomo ricco aveva un amministratore, e questi fu accusato dinanzi a lui di sperperare i suoi averi. Lo chiamò e gli disse: \"Che cosa sento dire di te? Rendi conto della tua amministrazione, perché non potrai più amministrare\".\nL'amministratore disse tra sé: \"Che cosa farò, ora che il mio padrone mi toglie l'amministrazione? Zappare, non ne ho la forza; mendicare, mi vergogno. So io che cosa farò perché, quando sarò stato allontanato dall'amministrazione, ci sia qualcuno che mi accolga in casa sua\".\nChiamò uno per uno i debitori del suo padrone e disse al primo: \"Tu quanto devi al mio padrone?\". Quello rispose: \"Cento barili d'olio\". Gli disse: \"Prendi la tua ricevuta, siediti subito e scrivi cinquanta\". Poi disse a un altro: \"Tu quanto devi?\". Rispose: \"Cento misure di grano\". Gli disse: \"Prendi la tua ricevuta e scrivi ottanta\".\nIl padrone lodò quell'amministratore disonesto, perché aveva agito con scaltrezza. I figli di questo mondo, infatti, verso i loro pari sono più scaltri dei figli della luce».",
+   "letture": [
+    {
+     "nome": "Prima lettura",
+     "fonte": "Dalla lettera di san Paolo apostolo ai Filippési",
+     "testo": "-\n4,1\nFratelli, fatevi insieme miei imitatori e guardate quelli che si comportano secondo l'esempio che avete in noi.\nPerché molti - ve l'ho già detto più volte e ora, con le lacrime agli occhi, ve lo ripeto - si comportano da nemici della croce di Cristo. La loro sorte finale sarà la perdizione, il ventre è il loro dio. Si vantano di ciò di cui dovrebbero vergognarsi e non pensano che alle cose della terra.\nLa nostra cittadinanza infatti è nei cieli e di là aspettiamo come salvatore il Signore Gesù Cristo, il quale trasfigurerà il nostro misero corpo per conformarlo al suo corpo glorioso, in virtù del potere che egli ha di sottomettere a sé tutte le cose.\nPerciò, fratelli miei carissimi e tanto desiderati, mia gioia e mia corona, rimanete in questo modo saldi nel Signore, carissimi!"
+    },
+    {
+     "nome": "Salmo responsoriale",
+     "fonte": "Dal Sal 121 (122)",
+     "testo": "R.\nAndremo con gioia alla casa del Signore.\nQuale gioia, quando mi dissero:\n«Andremo alla casa del Signore!».\nGià sono fermi i nostri piedi\nalle tue porte, Gerusalemme!\nR.\nGerusalemme è costruita\ncome città unita e compatta.\nÈ là che salgono le tribù,\nle tribù del Signore.\nR.\nSecondo la legge d'Israele,\nper lodare il nome del Signore.\nLà sono posti i troni del giudizio,\ni troni della casa di Davide.\nR."
+    },
+    {
+     "nome": "Canto al Vangelo",
+     "fonte": "",
+     "testo": "Alleluia, alleluia.\nChi osserva la parola di Gesù Cristo\nin lui l’amore di Dio è veramente perfetto. (\n1Gv 2,5\nAlleluia."
+    },
+    {
+     "nome": "Vangelo",
+     "fonte": "Dal Vangelo secondo Luca",
+     "testo": "In quel tempo, Gesù diceva ai discepoli:\n«Un uomo ricco aveva un amministratore, e questi fu accusato dinanzi a lui di sperperare i suoi averi. Lo chiamò e gli disse: \"Che cosa sento dire di te? Rendi conto della tua amministrazione, perché non potrai più amministrare\".\nL'amministratore disse tra sé: \"Che cosa farò, ora che il mio padrone mi toglie l'amministrazione? Zappare, non ne ho la forza; mendicare, mi vergogno. So io che cosa farò perché, quando sarò stato allontanato dall'amministrazione, ci sia qualcuno che mi accolga in casa sua\".\nChiamò uno per uno i debitori del suo padrone e disse al primo: \"Tu quanto devi al mio padrone?\". Quello rispose: \"Cento barili d'olio\". Gli disse: \"Prendi la tua ricevuta, siediti subito e scrivi cinquanta\". Poi disse a un altro: \"Tu quanto devi?\". Rispose: \"Cento misure di grano\". Gli disse: \"Prendi la tua ricevuta e scrivi ottanta\".\nIl padrone lodò quell'amministratore disonesto, perché aveva agito con scaltrezza. I figli di questo mondo, infatti, verso i loro pari sono più scaltri dei figli della luce».",
+     "riferimento": "Lc 16,1-8"
+    }
+   ]
+  },
+  {
+   "data": "2026-11-07",
+   "celebrazione": "SABATO DELLA XXXI SETTIMANA DEL TEMPO ORDINARIO",
+   "tipo": "Feria",
+   "colore": "verde",
+   "riferimento": "Lc 16,9-15",
+   "vangelo": "In quel tempo, Gesù diceva ai discepoli: «Fatevi degli amici con la ricchezza disonesta, perché, quando questa verrà a mancare, essi vi accolgano nelle dimore eterne.\nChi è fedele in cose di poco conto, è fedele anche in cose importanti; e chi è disonesto in cose di poco conto, è disonesto anche in cose importanti. Se dunque non siete stati fedeli nella ricchezza disonesta, chi vi affiderà quella vera? E se non siete stati fedeli nella ricchezza altrui, chi vi darà la vostra?\nNessun servitore può servire due padroni, perché o odierà l'uno e amerà l'altro, oppure si affezionerà all'uno e disprezzerà l'altro. Non potete servire Dio e la ricchezza».\nI farisei, che erano attaccati al denaro, ascoltavano tutte queste cose e si facevano beffe di lui. Egli disse loro: «Voi siete quelli che si ritengono giusti davanti agli uomini, ma Dio conosce i vostri cuori: ciò che fra gli uomini viene esaltato, davanti a Dio è cosa abominevole».",
+   "letture": [
+    {
+     "nome": "Prima lettura",
+     "fonte": "Dalla lettera di san Paolo apostolo ai Filippési",
+     "testo": "Fratelli, ho provato grande gioia nel Signore perché finalmente avete fatto rifiorire la vostra premura nei miei riguardi: l'avevate anche prima, ma non ne avete avuto l'occasione.\nNon dico questo per bisogno, perché ho imparato a bastare a me stesso in ogni occasione. So vivere nella povertà come so vivere nell'abbondanza; sono allenato a tutto e per tutto, alla sazietà e alla fame, all'abbondanza e all'indigenza. Tutto posso in colui che mi dà la forza.\nAvete fatto bene tuttavia a prendere parte alle mie tribolazioni. Lo sapete anche voi, Filippési, che all'inizio della predicazione del Vangelo, quando partii dalla Macedònia, nessuna Chiesa mi aprì un conto di dare e avere, se non voi soli; e anche a Tessalònica mi avete inviato per due volte il necessario.\nNon è però il vostro dono che io cerco, ma il frutto che va in abbondanza sul vostro conto. Ho il necessario e anche il superfluo; sono ricolmo dei vostri doni ricevuti da Epafrodìto, che sono un piacevole profumo, un sacrificio gradito, che piace a Dio.\nIl mio Dio, a sua volta, colmerà ogni vostro bisogno secondo la sua ricchezza con magnificenza, in Cristo Gesù."
+    },
+    {
+     "nome": "Salmo responsoriale",
+     "fonte": "Dal Sal 111 (112)",
+     "testo": "R.\nBeato l’uomo che teme il Signore.\nBeato l’uomo che teme il Signore\ne nei suoi precetti trova grande gioia.\nPotente sulla terra sarà la sua stirpe,\nla discendenza degli uomini retti sarà benedetta.\nR.\nFelice l’uomo pietoso che dà in prestito,\namministra i suoi beni con giustizia.\nEgli non vacillerà in eterno:\neterno sarà il ricordo del giusto.\nR.\nSicuro è il suo cuore, non teme.\nEgli dona largamente ai poveri,\nla sua giustizia rimane per sempre,\nla sua fronte s’innalza nella gloria.\nR."
+    },
+    {
+     "nome": "Canto al Vangelo",
+     "fonte": "",
+     "testo": "Alleluia, alleluia.\nGesù Cristo da ricco che era, si è fatto povero per voi,\nperché voi diventaste ricchi per mezzo della sua povertà. (\n2Cor 8,9\nAlleluia."
+    },
+    {
+     "nome": "Vangelo",
+     "fonte": "Dal Vangelo secondo Luca",
+     "testo": "In quel tempo, Gesù diceva ai discepoli: «Fatevi degli amici con la ricchezza disonesta, perché, quando questa verrà a mancare, essi vi accolgano nelle dimore eterne.\nChi è fedele in cose di poco conto, è fedele anche in cose importanti; e chi è disonesto in cose di poco conto, è disonesto anche in cose importanti. Se dunque non siete stati fedeli nella ricchezza disonesta, chi vi affiderà quella vera? E se non siete stati fedeli nella ricchezza altrui, chi vi darà la vostra?\nNessun servitore può servire due padroni, perché o odierà l'uno e amerà l'altro, oppure si affezionerà all'uno e disprezzerà l'altro. Non potete servire Dio e la ricchezza».\nI farisei, che erano attaccati al denaro, ascoltavano tutte queste cose e si facevano beffe di lui. Egli disse loro: «Voi siete quelli che si ritengono giusti davanti agli uomini, ma Dio conosce i vostri cuori: ciò che fra gli uomini viene esaltato, davanti a Dio è cosa abominevole».",
+     "riferimento": "Lc 16,9-15"
+    }
+   ]
+  },
+  {
+   "data": "2026-11-08",
+   "celebrazione": "XXXII DOMENICA DEL TEMPO ORDINARIO - ANNO A",
+   "tipo": "Domenica",
+   "colore": "verde",
+   "riferimento": "Mt 25,1-13",
+   "vangelo": "In quel tempo, Gesù disse ai suoi discepoli questa parabola:\n«Il regno dei cieli sarà simile a dieci vergini che presero le loro lampade e uscirono incontro allo sposo. Cinque di esse erano stolte e cinque sagge; le stolte presero le loro lampade, ma non presero con sé l’olio; le sagge invece, insieme alle loro lampade, presero anche l’olio in piccoli vasi. Poiché lo sposo tardava, si assopirono tutte e si addormentarono.\nA mezzanotte si alzò un grido: “Ecco lo sposo! Andategli incontro!”. Allora tutte quelle vergini si destarono e prepararono le loro lampade. Le stolte dissero alle sagge: “Dateci un po’ del vostro olio, perché le nostre lampade si spengono”. Le sagge risposero: “No, perché non venga a mancare a noi e a voi; andate piuttosto dai venditori e compratevene”.\nOra, mentre quelle andavano a comprare l’olio, arrivò lo sposo e le vergini che erano pronte entrarono con lui alle nozze, e la porta fu chiusa. Più tardi arrivarono anche le altre vergini e incominciarono a dire: “Signore, signore, aprici!”. Ma egli rispose: “In verità io vi dico: non vi conosco”.\nVegliate dunque, perché non sapete né il giorno né l’ora».",
+   "letture": [
+    {
+     "nome": "Prima lettura",
+     "fonte": "Dal libro della Sapienza",
+     "testo": "La sapienza è splendida e non sfiorisce,\nfacilmente si lascia vedere da coloro che la amano\ne si lascia trovare da quelli che la cercano.\nNel farsi conoscere previene coloro che la desiderano.\nChi si alza di buon mattino per cercarla non si affaticherà,\nla troverà seduta alla sua porta.\nRiflettere su di lei, infatti, è intelligenza perfetta,\nchi veglia a causa sua sarà presto senza affanni;\npoiché lei stessa va in cerca di quelli che sono degni di lei,\nappare loro benevola per le strade\ne in ogni progetto va loro incontro."
+    },
+    {
+     "nome": "Salmo responsoriale",
+     "fonte": "Dal Sal 62 (63)",
+     "testo": "R.\nHa sete di te, Signore, l’anima mia.\nO Dio, tu sei il mio Dio,\ndall’aurora io ti cerco,\nha sete di te l’anima mia,\ndesidera te la mia carne\nin terra arida, assetata, senz’acqua.\nR.\nCosì nel santuario ti ho contemplato,\nguardando la tua potenza e la tua gloria.\nPoiché il tuo amore vale più della vita,\nle mie labbra canteranno la tua lode.\nR.\nCosì ti benedirò per tutta la vita:\nnel tuo nome alzerò le mie mani.\nCome saziato dai cibi migliori,\ncon labbra gioiose ti loderà la mia bocca.\nR.\nQuando nel mio letto di te mi ricordo\ne penso a te nelle veglie notturne,\na te che sei stato il mio aiuto,\nesulto di gioia all’ombra delle tue ali.\nR."
+    },
+    {
+     "nome": "Seconda lettura",
+     "fonte": "Dalla prima lettera di san Paolo apostolo ai Tessalonicési",
+     "testo": "1Ts 4,13-18\nNon vogliamo, fratelli, lasciarvi nell’ignoranza a proposito di quelli che sono morti, perché non siate tristi come gli altri che non hanno speranza. Se infatti crediamo che Gesù è morto e risorto, così anche Dio, per mezzo di Gesù, radunerà con lui coloro che sono morti.\nSulla parola del Signore infatti vi diciamo questo: noi, che viviamo e che saremo ancora in vita alla venuta del Signore, non avremo alcuna precedenza su quelli che sono morti. Perché il Signore stesso, a un ordine, alla voce dell’arcangelo e al suono della tromba di Dio, discenderà dal cielo. E prima risorgeranno i morti in Cristo; quindi noi, che viviamo e che saremo ancora in vita, verremo rapiti insieme con loro nelle nubi,\nper andare incontro al Signore in alto, e così per sempre saremo con il Signore.\nConfortatevi dunque a vicenda con queste parole."
+    },
+    {
+     "nome": "Canto al Vangelo",
+     "fonte": "",
+     "testo": "Alleluia, alleluia.\nVegliate e tenetevi pronti,\nperché, nell’ora che non immaginate,\nviene il Figlio dell’uomo. (\nAlleluia."
+    },
+    {
+     "nome": "Vangelo",
+     "fonte": "Dal Vangelo secondo Matteo",
+     "testo": "In quel tempo, Gesù disse ai suoi discepoli questa parabola:\n«Il regno dei cieli sarà simile a dieci vergini che presero le loro lampade e uscirono incontro allo sposo. Cinque di esse erano stolte e cinque sagge; le stolte presero le loro lampade, ma non presero con sé l’olio; le sagge invece, insieme alle loro lampade, presero anche l’olio in piccoli vasi. Poiché lo sposo tardava, si assopirono tutte e si addormentarono.\nA mezzanotte si alzò un grido: “Ecco lo sposo! Andategli incontro!”. Allora tutte quelle vergini si destarono e prepararono le loro lampade. Le stolte dissero alle sagge: “Dateci un po’ del vostro olio, perché le nostre lampade si spengono”. Le sagge risposero: “No, perché non venga a mancare a noi e a voi; andate piuttosto dai venditori e compratevene”.\nOra, mentre quelle andavano a comprare l’olio, arrivò lo sposo e le vergini che erano pronte entrarono con lui alle nozze, e la porta fu chiusa. Più tardi arrivarono anche le altre vergini e incominciarono a dire: “Signore, signore, aprici!”. Ma egli rispose: “In verità io vi dico: non vi conosco”.\nVegliate dunque, perché non sapete né il giorno né l’ora».",
+     "riferimento": "Mt 25,1-13"
+    }
+   ]
+  },
+  {
+   "data": "2026-11-09",
+   "celebrazione": "DEDICAZIONE DELLA BASILICA LATERANENSE – FESTA",
+   "tipo": "Festa",
+   "colore": "bianco",
+   "riferimento": "Gv 2,13-22",
+   "vangelo": "Si avvicinava la Pasqua dei Giudei e Gesù salì a Gerusalemme.\nTrovò nel tempio gente che vendeva buoi, pecore e colombe e, là seduti, i cambiamonete.\nAllora fece una frusta di cordicelle e scacciò tutti fuori del tempio, con le pecore e i buoi; gettò a terra il denaro dei cambiamonete e ne rovesciò i banchi, e ai venditori di colombe disse: «Portate via di qui queste cose e non fate della casa del Padre mio un mercato!».\nI suoi discepoli si ricordarono che sta scritto: «Lo zelo per la tua casa mi divorerà».\nAllora i Giudei presero la parola e gli dissero: «Quale segno ci mostri per fare queste cose?». Rispose loro Gesù: «Distruggete questo tempio e in tre giorni lo farò risorgere».\nGli dissero allora i Giudei: «Questo tempio è stato costruito in quarantasei anni e tu in tre giorni lo farai risorgere?». Ma egli parlava del tempio del suo corpo.\nQuando poi fu risuscitato dai morti, i suoi discepoli si ricordarono che aveva detto questo, e credettero alla Scrittura e alla parola detta da Gesù.",
+   "letture": [
+    {
+     "nome": "Prima lettura",
+     "fonte": "Dal libro del profeta Ezechièle",
+     "testo": "8-9.12\nIn quei giorni, [un uomo, il cui aspetto era come di bronzo,] mi condusse all’ingresso del tempio e vidi che sotto la soglia del tempio usciva acqua verso oriente, poiché la facciata del tempio era verso oriente. Quell’acqua scendeva sotto il lato destro del tempio, dalla parte meridionale dell’altare. Mi condusse fuori dalla porta settentrionale e mi fece girare all’esterno, fino alla porta esterna rivolta a oriente, e vidi che l’acqua scaturiva dal lato destro.\nMi disse: «Queste acque scorrono verso la regione orientale, scendono nell’Aràba ed entrano nel mare: sfociate nel mare, ne risanano le acque. Ogni essere vivente che si muove dovunque arriva il torrente, vivrà: il pesce vi sarà abbondantissimo, perché dove giungono quelle acque, risanano, e là dove giungerà il torrente tutto rivivrà. Lungo il torrente, su una riva e sull’altra, crescerà ogni sorta di alberi da frutto, le cui foglie non appassiranno: i loro frutti non cesseranno e ogni mese matureranno, perché le loro acque sgorgano dal santuario. I loro frutti serviranno come cibo e le foglie come medicina»."
+    },
+    {
+     "nome": "Salmo responsoriale",
+     "fonte": "Dal Sal 45 (46)",
+     "testo": "R.\nUn fiume rallegra la città di Dio.\nDio è per noi rifugio e fortezza,\naiuto infallibile si è mostrato nelle angosce.\nPerciò non temiamo se trema la terra,\nse vacillano i monti nel fondo del mare.\nR.\nUn fiume e i suoi canali rallegrano la città di Dio,\nla più santa delle dimore dell’Altissimo.\nDio è in mezzo ad essa: non potrà vacillare.\nDio la soccorre allo spuntare dell’alba.\nR.\nIl Signore degli eserciti è con noi,\nnostro baluardo è il Dio di Giacobbe.\nVenite, vedete le opere del Signore,\negli ha fatto cose tremende sulla terra.\nR."
+    },
+    {
+     "nome": "Canto al Vangelo",
+     "fonte": "",
+     "testo": "Alleluia, alleluia.\nIo mi sono scelto e ho consacrato questa casa\nperché il mio nome vi resti sempre. (\n2Cr 7,16\nAlleluia."
+    },
+    {
+     "nome": "Vangelo",
+     "fonte": "Dal Vangelo secondo Giovanni",
+     "testo": "Si avvicinava la Pasqua dei Giudei e Gesù salì a Gerusalemme.\nTrovò nel tempio gente che vendeva buoi, pecore e colombe e, là seduti, i cambiamonete.\nAllora fece una frusta di cordicelle e scacciò tutti fuori del tempio, con le pecore e i buoi; gettò a terra il denaro dei cambiamonete e ne rovesciò i banchi, e ai venditori di colombe disse: «Portate via di qui queste cose e non fate della casa del Padre mio un mercato!».\nI suoi discepoli si ricordarono che sta scritto: «Lo zelo per la tua casa mi divorerà».\nAllora i Giudei presero la parola e gli dissero: «Quale segno ci mostri per fare queste cose?». Rispose loro Gesù: «Distruggete questo tempio e in tre giorni lo farò risorgere».\nGli dissero allora i Giudei: «Questo tempio è stato costruito in quarantasei anni e tu in tre giorni lo farai risorgere?». Ma egli parlava del tempio del suo corpo.\nQuando poi fu risuscitato dai morti, i suoi discepoli si ricordarono che aveva detto questo, e credettero alla Scrittura e alla parola detta da Gesù.",
+     "riferimento": "Gv 2,13-22"
+    }
+   ]
+  },
+  {
+   "data": "2026-11-10",
+   "celebrazione": "SAN LEONE MAGNO, PAPA E DOTTORE DELLA CHIESA - MEMORIA",
+   "tipo": "Memoria",
+   "colore": "bianco",
+   "riferimento": "Lc 17,7-10",
+   "vangelo": "In quel tempo, Gesù disse:\n«Chi di voi, se ha un servo ad arare o a pascolare il gregge, gli dirà, quando rientra dal campo: “Vieni subito e mettiti a tavola”? Non gli dirà piuttosto: “Prepara da mangiare, strìngiti le vesti ai fianchi e sérvimi, finché avrò mangiato e bevuto, e dopo mangerai e berrai tu”? Avrà forse gratitudine verso quel servo, perché ha eseguito gli ordini ricevuti?\nCosì anche voi, quando avrete fatto tutto quello che vi è stato ordinato, dite: “Siamo servi inutili. Abbiamo fatto quanto dovevamo fare”».",
+   "letture": [
+    {
+     "nome": "Prima lettura",
+     "fonte": "Dalla lettera di san Paolo apostolo a Tito",
+     "testo": "11-14\nCarissimo, insegna quello che è conforme alla sana dottrina.\nGli uomini anziani siano sobri, dignitosi, saggi, saldi nella fede, nella carità e nella pazienza. Anche le donne anziane abbiano un comportamento santo: non siano maldicenti né schiave del vino; sappiano piuttosto insegnare il bene, per formare le giovani all’amore del marito e dei figli, a essere prudenti, caste, dedite alla famiglia, buone, sottomesse ai propri mariti, perché la parola di Dio non venga screditata.\nEsorta ancora i più giovani a essere prudenti, offrendo te stesso come esempio di opere buone: integrità nella dottrina, dignità, linguaggio sano e irreprensibile, perché il nostro avversario resti svergognato, non avendo nulla di male da dire contro di noi.\nÈ apparsa infatti la grazia di Dio, che porta salvezza a tutti gli uomini e ci insegna a rinnegare l’empietà e i desideri mondani e a vivere in questo mondo con sobrietà, con giustizia e con pietà, nell’attesa della beata speranza e della manifestazione della gloria del nostro grande Dio e salvatore Gesù Cristo. Egli ha dato se stesso per noi, per riscattarci da ogni iniquità e formare per sé un popolo puro che gli appartenga, pieno di zelo per le opere buone."
+    },
+    {
+     "nome": "Salmo responsoriale",
+     "fonte": "Dal Sal 36 (37)",
+     "testo": "R.\nLa salvezza dei giusti viene dal Signore.\nConfida nel Signore e fa’ il bene:\nabiterai la terra e vi pascolerai con sicurezza.\nCerca la gioia nel Signore:\nesaudirà i desideri del tuo cuore.\nR.\nIl Signore conosce i giorni degli uomini integri:\nla loro eredità durerà per sempre.\nIl Signore rende sicuri i passi dell’uomo\ne si compiace della sua via.\nR.\nSta’ lontano dal male e fa’ il bene\ne avrai sempre una casa.\nI giusti avranno in eredità la terra\ne vi abiteranno per sempre.\nR."
+    },
+    {
+     "nome": "Canto al Vangelo",
+     "fonte": "",
+     "testo": "Alleluia, alleluia.\nSe uno mi ama, osserverà la mia parola, dice il Signore,\ne il Padre mio lo amerà e noi verremo a lui. (\nAlleluia."
+    },
+    {
+     "nome": "Vangelo",
+     "fonte": "Dal Vangelo secondo Luca",
+     "testo": "In quel tempo, Gesù disse:\n«Chi di voi, se ha un servo ad arare o a pascolare il gregge, gli dirà, quando rientra dal campo: “Vieni subito e mettiti a tavola”? Non gli dirà piuttosto: “Prepara da mangiare, strìngiti le vesti ai fianchi e sérvimi, finché avrò mangiato e bevuto, e dopo mangerai e berrai tu”? Avrà forse gratitudine verso quel servo, perché ha eseguito gli ordini ricevuti?\nCosì anche voi, quando avrete fatto tutto quello che vi è stato ordinato, dite: “Siamo servi inutili. Abbiamo fatto quanto dovevamo fare”».",
+     "riferimento": "Lc 17,7-10"
+    }
+   ]
+  },
+  {
+   "data": "2026-11-11",
+   "celebrazione": "SAN MARTINO DI TOURS, VESCOVO – MEMORIA",
+   "tipo": "Memoria",
+   "colore": "bianco",
+   "riferimento": "Lc 17,11-19",
+   "vangelo": "Lungo il cammino verso Gerusalemme, Gesù attraversava la Samarìa e la Galilea.\nEntrando in un villaggio, gli vennero incontro dieci lebbrosi, che si fermarono a distanza e dissero ad alta voce: «Gesù, maestro, abbi pietà di noi!». Appena li vide, Gesù disse loro: «Andate a presentarvi ai sacerdoti». E mentre essi andavano, furono purificati.\nUno di loro, vedendosi guarito, tornò indietro lodando Dio a gran voce, e si prostrò davanti a Gesù, ai suoi piedi, per ringraziarlo. Era un Samaritano.\nMa Gesù osservò: «Non ne sono stati purificati dieci? E gli altri nove dove sono? Non si è trovato nessuno che tornasse indietro a rendere gloria a Dio, all’infuori di questo straniero?». E gli disse: «Àlzati e va’; la tua fede ti ha salvato!».",
+   "letture": [
+    {
+     "nome": "Prima lettura",
+     "fonte": "Dalla lettera di san Paolo apostolo a Tito",
+     "testo": "Carissimo, ricorda [a tutti] di essere sottomessi alle autorità che governano, di obbedire, di essere pronti per ogni opera buona; di non parlare male di nessuno, di evitare le liti, di essere mansueti, mostrando ogni mitezza verso tutti gli uomini.\nAnche noi un tempo eravamo insensati, disobbedienti, corrotti, schiavi di ogni sorta di passioni e di piaceri, vivendo nella malvagità e nell’invidia, odiosi e odiandoci a vicenda.\nMa quando apparvero la bontà di Dio, salvatore nostro,\ne il suo amore per gli uomini,\negli ci ha salvati,\nnon per opere giuste da noi compiute,\nma per la sua misericordia,\ncon un’acqua che rigenera e rinnova nello Spirito Santo,\nche Dio ha effuso su di noi in abbondanza\nper mezzo di Gesù Cristo, salvatore nostro,\naffinché, giustificati per la sua grazia,\ndiventassimo, nella speranza, eredi della vita eterna."
+    },
+    {
+     "nome": "Salmo responsoriale",
+     "fonte": "Dal Sal 22 (23)",
+     "testo": "R.\nIl Signore è il mio pastore: non manco di nulla.\nIl Signore è il mio pastore:\nnon manco di nulla.\nSu pascoli erbosi mi fa riposare,\nad acque tranquille mi conduce.\nR.\nRinfranca l’anima mia,\nmi guida per il giusto cammino\na motivo del suo nome.\nR.\nAnche se vado per una valle oscura,\nnon temo alcun male, perché tu sei con me.\nIl tuo bastone e il tuo vincastro\nmi danno sicurezza.\nR.\nDavanti a me tu prepari una mensa\nsotto gli occhi dei miei nemici.\nUngi di olio il mio capo;\nil mio calice trabocca.\nR.\nSì, bontà e fedeltà mi saranno compagne\ntutti i giorni della mia vita,\nabiterò ancora nella casa del Signore\nper lunghi giorni.\nR."
+    },
+    {
+     "nome": "Canto al Vangelo",
+     "fonte": "",
+     "testo": "Alleluia, alleluia.\nIn ogni cosa rendete grazie:\nquesta infatti è volontà di Dio in Cristo Gesù verso di voi. (\n1Ts 5,18\nAlleluia."
+    },
+    {
+     "nome": "Vangelo",
+     "fonte": "Dal Vangelo secondo Luca",
+     "testo": "Lungo il cammino verso Gerusalemme, Gesù attraversava la Samarìa e la Galilea.\nEntrando in un villaggio, gli vennero incontro dieci lebbrosi, che si fermarono a distanza e dissero ad alta voce: «Gesù, maestro, abbi pietà di noi!». Appena li vide, Gesù disse loro: «Andate a presentarvi ai sacerdoti». E mentre essi andavano, furono purificati.\nUno di loro, vedendosi guarito, tornò indietro lodando Dio a gran voce, e si prostrò davanti a Gesù, ai suoi piedi, per ringraziarlo. Era un Samaritano.\nMa Gesù osservò: «Non ne sono stati purificati dieci? E gli altri nove dove sono? Non si è trovato nessuno che tornasse indietro a rendere gloria a Dio, all’infuori di questo straniero?». E gli disse: «Àlzati e va’; la tua fede ti ha salvato!».",
+     "riferimento": "Lc 17,11-19"
+    }
+   ]
+  },
+  {
+   "data": "2026-11-12",
+   "celebrazione": "SAN GIOSAFAT, VESCOVO E MARTIRE – MEMORIA",
+   "tipo": "Memoria",
+   "colore": "bianco",
+   "riferimento": "Lc 17,20-25",
+   "vangelo": "In quel tempo, i farisei domandarono a Gesù: «Quando verrà il regno di Dio?». Egli rispose loro: «Il regno di Dio non viene in modo da attirare l’attenzione, e nessuno dirà: “Eccolo qui”, oppure: “Eccolo là”. Perché, ecco, il regno di Dio è in mezzo a voi!».\nDisse poi ai discepoli: «Verranno giorni in cui desidererete vedere anche uno solo dei giorni del Figlio dell’uomo, ma non lo vedrete.\nVi diranno: “Eccolo là”, oppure: “Eccolo qui”; non andateci, non seguiteli. Perché come la folgore, guizzando, brilla da un capo all’altro del cielo, così sarà il Figlio dell’uomo nel suo giorno. Ma prima è necessario che egli soffra molto e venga rifiutato da questa generazione».",
+   "letture": [
+    {
+     "nome": "Prima lettura",
+     "fonte": "Dalla lettera di san Paolo apostolo a Filèmone",
+     "testo": "Fratello, la tua carità è stata per me motivo di grande gioia e consolazione, perché per opera tua i santi sono stati profondamente confortati.\nPer questo, pur avendo in Cristo piena libertà di ordinarti ciò che è opportuno, in nome della carità piuttosto ti esorto, io, Paolo, così come sono, vecchio, e ora anche prigioniero di Cristo Gesù. Ti prego per Onèsimo, figlio mio, che ho generato nelle catene, lui, che un giorno ti fu inutile, ma che ora è utile a te e a me. Te lo rimando, lui che mi sta tanto a cuore.\nAvrei voluto tenerlo con me perché mi assistesse al posto tuo, ora che sono in catene per il Vangelo. Ma non ho voluto fare nulla senza il tuo parere, perché il bene che fai non sia forzato, ma volontario. Per questo forse è stato separato da te per un momento: perché tu lo riavessi per sempre; non più però come schiavo, ma molto più che schiavo, come fratello carissimo, in primo luogo per me, ma ancora più per te, sia come uomo sia come fratello nel Signore.\nSe dunque tu mi consideri amico, accoglilo come me stesso. E se in qualche cosa ti ha offeso o ti è debitore, metti tutto sul mio conto. Io, Paolo, lo scrivo di mio pugno: pagherò io. Per non dirti che anche tu mi sei debitore, e proprio di te stesso! Sì, fratello! Che io possa ottenere questo favore nel Signore; da’ questo sollievo al mio cuore, in Cristo!"
+    },
+    {
+     "nome": "Salmo responsoriale",
+     "fonte": "Dal Sal 145 (146)",
+     "testo": "R.\nBeato chi ha per aiuto il Dio di Giacobbe.\nOppure:\nR.\nPer tutta la vita loderò il Signore.\nIl Signore rende giustizia agli oppressi,\ndà il pane agli affamati.\nIl Signore libera i prigionieri.\nR.\nIl Signore ridona la vista ai ciechi,\nil Signore rialza chi è caduto,\nil Signore ama i giusti,\nil Signore protegge i forestieri.\nR.\nEgli sostiene l’orfano e la vedova,\nma sconvolge le vie dei malvagi.\nIl Signore regna per sempre,\nil tuo Dio, o Sion, di generazione in generazione.\nR."
+    },
+    {
+     "nome": "Canto al Vangelo",
+     "fonte": "",
+     "testo": "Alleluia, alleluia.\nIo sono la vite, voi i tralci, dice il Signore;\nchi rimane in me, e io in lui, porta molto frutto. (\nAlleluia."
+    },
+    {
+     "nome": "Vangelo",
+     "fonte": "Dal Vangelo secondo Luca",
+     "testo": "In quel tempo, i farisei domandarono a Gesù: «Quando verrà il regno di Dio?». Egli rispose loro: «Il regno di Dio non viene in modo da attirare l’attenzione, e nessuno dirà: “Eccolo qui”, oppure: “Eccolo là”. Perché, ecco, il regno di Dio è in mezzo a voi!».\nDisse poi ai discepoli: «Verranno giorni in cui desidererete vedere anche uno solo dei giorni del Figlio dell’uomo, ma non lo vedrete.\nVi diranno: “Eccolo là”, oppure: “Eccolo qui”; non andateci, non seguiteli. Perché come la folgore, guizzando, brilla da un capo all’altro del cielo, così sarà il Figlio dell’uomo nel suo giorno. Ma prima è necessario che egli soffra molto e venga rifiutato da questa generazione».",
+     "riferimento": "Lc 17,20-25"
+    }
+   ]
+  },
+  {
+   "data": "2026-11-13",
+   "celebrazione": "VENERDÌ DELLA XXXII SETTIMANA DEL TEMPO ORDINARIO",
+   "tipo": "Feria",
+   "colore": "verde",
+   "riferimento": "Lc 17,26-37",
+   "vangelo": "In quel tempo, Gesù disse ai suoi discepoli:\n«Come avvenne nei giorni di Noè, così sarà nei giorni del Figlio dell’uomo: mangiavano, bevevano, prendevano moglie, prendevano marito, fino al giorno in cui Noè entrò nell’arca e venne il diluvio e li fece morire tutti.\nCome avvenne anche nei giorni di Lot: mangiavano, bevevano, compravano, vendevano, piantavano, costruivano; ma, nel giorno in cui Lot uscì da Sòdoma, piovve fuoco e zolfo dal cielo e li fece morire tutti. Così accadrà nel giorno in cui il Figlio dell’uomo si manifesterà.\nIn quel giorno, chi si troverà sulla terrazza e avrà lasciato le sue cose in casa, non scenda a prenderle; così, chi si troverà nel campo, non torni indietro. Ricordatevi della moglie di Lot.\nChi cercherà di salvare la propria vita, la perderà; ma chi la perderà, la manterrà viva.\nIo vi dico: in quella notte, due si troveranno nello stesso letto: l’uno verrà portato via e l’altro lasciato; due donne staranno a macinare nello stesso luogo: l’una verrà portata via e l’altra lasciata».\nAllora gli chiesero: «Dove, Signore?». Ed egli disse loro: «Dove sarà il cadavere, lì si raduneranno insieme anche gli avvoltoi».",
+   "letture": [
+    {
+     "nome": "Prima lettura",
+     "fonte": "Dalla seconda lettera di san Giovanni apostolo",
+     "testo": "2Gv 1a.3-9\nIo, il Presbìtero, alla Signora eletta da Dio e ai suoi figli, che amo nella verità: grazia, misericordia e pace saranno con noi da parte di Dio Padre e da parte di Gesù Cristo, Figlio del Padre, nella verità e nell’amore. Mi sono molto rallegrato di aver trovato alcuni tuoi figli che camminano nella verità, secondo il comandamento che abbiamo ricevuto dal Padre.\nE ora prego te, o Signora, non per darti un comandamento nuovo, ma quello che abbiamo avuto da principio: che ci amiamo gli uni gli altri. Questo è l’amore: camminare secondo i suoi comandamenti. Il comandamento che avete appreso da principio è questo: camminate nell’amore.\nSono apparsi infatti nel mondo molti seduttori, che non riconoscono Gesù venuto nella carne. Ecco il seduttore e l’anticristo! Fate attenzione a voi stessi per non rovinare quello che abbiamo costruito e per ricevere una ricompensa piena. Chi va oltre e non rimane nella dottrina del Cristo, non possiede Dio. Chi invece rimane nella dottrina, possiede il Padre e il Figlio."
+    },
+    {
+     "nome": "Salmo responsoriale",
+     "fonte": "Dal Sal 118 (119)",
+     "testo": "R.\nBeato chi cammina nella legge del Signore.\nBeato chi è integro nella sua via\ne cammina nella legge del Signore.\nBeato chi custodisce i suoi insegnamenti\ne lo cerca con tutto il cuore.\nR.\nCon tutto il mio cuore ti cerco:\nnon lasciarmi deviare dai tuoi comandi.\nRipongo nel cuore la tua promessa\nper non peccare contro di te.\nR.\nSii benevolo con il tuo servo e avrò vita,\nosserverò la tua parola.\nAprimi gli occhi perché io consideri\nle meraviglie della tua legge.\nR."
+    },
+    {
+     "nome": "Canto al Vangelo",
+     "fonte": "",
+     "testo": "Alleluia, alleluia.\nRisollevatevi e alzate il capo,\nperché la vostra liberazione è vicina. (\nAlleluia."
+    },
+    {
+     "nome": "Vangelo",
+     "fonte": "Dal Vangelo secondo Luca",
+     "testo": "In quel tempo, Gesù disse ai suoi discepoli:\n«Come avvenne nei giorni di Noè, così sarà nei giorni del Figlio dell’uomo: mangiavano, bevevano, prendevano moglie, prendevano marito, fino al giorno in cui Noè entrò nell’arca e venne il diluvio e li fece morire tutti.\nCome avvenne anche nei giorni di Lot: mangiavano, bevevano, compravano, vendevano, piantavano, costruivano; ma, nel giorno in cui Lot uscì da Sòdoma, piovve fuoco e zolfo dal cielo e li fece morire tutti. Così accadrà nel giorno in cui il Figlio dell’uomo si manifesterà.\nIn quel giorno, chi si troverà sulla terrazza e avrà lasciato le sue cose in casa, non scenda a prenderle; così, chi si troverà nel campo, non torni indietro. Ricordatevi della moglie di Lot.\nChi cercherà di salvare la propria vita, la perderà; ma chi la perderà, la manterrà viva.\nIo vi dico: in quella notte, due si troveranno nello stesso letto: l’uno verrà portato via e l’altro lasciato; due donne staranno a macinare nello stesso luogo: l’una verrà portata via e l’altra lasciata».\nAllora gli chiesero: «Dove, Signore?». Ed egli disse loro: «Dove sarà il cadavere, lì si raduneranno insieme anche gli avvoltoi».",
+     "riferimento": "Lc 17,26-37"
+    }
+   ]
+  },
+  {
+   "data": "2026-11-14",
+   "celebrazione": "SABATO DELLA XXXII SETTIMANA DEL TEMPO ORDINARIO",
+   "tipo": "Feria",
+   "colore": "verde",
+   "riferimento": "Lc 18,1-8",
+   "vangelo": "In quel tempo, Gesù diceva ai suoi discepoli una parabola sulla necessità di pregare sempre, senza stancarsi mai:\n«In una città viveva un giudice, che non temeva Dio né aveva riguardo per alcuno. In quella città c’era anche una vedova, che andava da lui e gli diceva: “Fammi giustizia contro il mio avversario”.\nPer un po’ di tempo egli non volle; ma poi disse tra sé: “Anche se non temo Dio e non ho riguardo per alcuno, dato che questa vedova mi dà tanto fastidio, le farò giustizia perché non venga continuamente a importunarmi”».\nE il Signore soggiunse: «Ascoltate ciò che dice il giudice disonesto. E Dio non farà forse giustizia ai suoi eletti, che gridano giorno e notte verso di lui? Li farà forse aspettare a lungo? Io vi dico che farà loro giustizia prontamente. Ma il Figlio dell’uomo, quando verrà, troverà la fede sulla terra?».",
+   "letture": [
+    {
+     "nome": "Prima lettura",
+     "fonte": "Dalla terza lettera di san Giovanni apostolo",
+     "testo": "3Gv 1,5-8\nCarissimo [Gaio], tu ti comporti fedelmente in tutto ciò che fai in favore dei fratelli, benché stranieri.\nEssi hanno dato testimonianza della tua carità davanti alla Chiesa; tu farai bene a provvedere loro il necessario per il viaggio in modo degno di Dio. Per il suo nome, infatti, essi sono partiti senza accettare nulla dai pagani.\nNoi perciò dobbiamo accogliere tali persone per diventare collaboratori della verità."
+    },
+    {
+     "nome": "Salmo responsoriale",
+     "fonte": "Dal Sal 111 (112)",
+     "testo": "R.\nBeato l’uomo che teme il Signore.\nBeato l’uomo che teme il Signore\ne nei suoi precetti trova grande gioia.\nPotente sulla terra sarà la sua stirpe,\nla discendenza degli uomini retti sarà benedetta.\nR.\nProsperità e ricchezza nella sua casa,\nla sua giustizia rimane per sempre.\nSpunta nelle tenebre, luce per gli uomini retti:\nmisericordioso, pietoso e giusto.\nR.\nFelice l’uomo pietoso che dà in prestito,\namministra i suoi beni con giustizia.\nEgli non vacillerà in eterno:\neterno sarà il ricordo del giusto.\nR."
+    },
+    {
+     "nome": "Canto al Vangelo",
+     "fonte": "",
+     "testo": "Alleluia, alleluia.\nDio ci ha chiamati mediante il Vangelo,\nper entrare in possesso della gloria\ndel Signore nostro Gesù Cristo. (Cf.\n2Ts 2,14\nAlleluia."
+    },
+    {
+     "nome": "Vangelo",
+     "fonte": "Dal Vangelo secondo Luca",
+     "testo": "In quel tempo, Gesù diceva ai suoi discepoli una parabola sulla necessità di pregare sempre, senza stancarsi mai:\n«In una città viveva un giudice, che non temeva Dio né aveva riguardo per alcuno. In quella città c’era anche una vedova, che andava da lui e gli diceva: “Fammi giustizia contro il mio avversario”.\nPer un po’ di tempo egli non volle; ma poi disse tra sé: “Anche se non temo Dio e non ho riguardo per alcuno, dato che questa vedova mi dà tanto fastidio, le farò giustizia perché non venga continuamente a importunarmi”».\nE il Signore soggiunse: «Ascoltate ciò che dice il giudice disonesto. E Dio non farà forse giustizia ai suoi eletti, che gridano giorno e notte verso di lui? Li farà forse aspettare a lungo? Io vi dico che farà loro giustizia prontamente. Ma il Figlio dell’uomo, quando verrà, troverà la fede sulla terra?».",
+     "riferimento": "Lc 18,1-8"
+    }
+   ]
+  }
+ ]
 }
