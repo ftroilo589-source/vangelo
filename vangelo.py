@@ -1,8 +1,15 @@
-"""Scarica la liturgia del giorno da chiesacattolica.it e scrive vangelo.json (solo il Vangelo, versione compatta per widget)."""
+"""Scarica la liturgia da chiesacattolica.it (solo letture, niente preghiere del messale).
+
+- vangelo.json: oggi + i prossimi 14 giorni, aggiornato ogni notte
+- anno_AAAA.json: tutto l'anno corrente, creato la prima volta che manca
+  (quindi automaticamente al primo run di ogni nuovo anno)
+"""
 import json
 import re
 import sys
+import time
 import datetime as dt
+from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
@@ -10,6 +17,8 @@ from bs4 import BeautifulSoup
 
 URL = "https://www.chiesacattolica.it/liturgia-del-giorno/?data-liturgia={d}"
 ROMA = ZoneInfo("Europe/Rome")
+PAUSA = 0.5
+GIORNI_PROSSIMI = 14
 
 SEZIONI = {
     "antifona d ingresso": "Antifona d'ingresso",
@@ -29,16 +38,12 @@ SEZIONI = {
     "preghiera dopo la comunione": "Dopo la comunione",
 }
 INIZIO = {"Antifona d'ingresso", "Colletta", "Prima lettura", "Salmo responsoriale"}
+LETTURE = ["Prima lettura", "Salmo responsoriale", "Seconda lettura", "Canto al Vangelo", "Vangelo"]
 
 
 def norm(riga):
     r = re.sub(r"[^\w\s]", " ", riga.lower())
     return re.sub(r"\s+", " ", r).strip()
-
-
-def data_oggi():
-    # la data è quella di oggi a Roma: il run di mezzanotte prepara il giorno appena iniziato
-    return dt.datetime.now(ROMA).date()
 
 
 def scarica(giorno):
@@ -57,7 +62,7 @@ def righe_da_html(html):
         t.decompose()
     testo = soup.get_text("\n")
     righe = [re.sub(r"\s+", " ", r).strip() for r in testo.split("\n")]
-    return [r for r in righe if r], soup
+    return [r for r in righe if r]
 
 
 def estrai(righe):
@@ -75,28 +80,43 @@ def estrai(righe):
     return sezioni
 
 
-def pulisci_vangelo(corpo):
-    """Restituisce (riferimento, testo): via monizione, intestazione del brano e formula finale."""
-    rif, testo = "", corpo
+def taglia(corpo):
+    """Ferma il testo appena inizia la parte successiva (altra messa, footer, formula finale)."""
+    out = []
+    for r in corpo:
+        if (r.upper().startswith("COMMEMORAZIONE")
+                or norm(r).startswith(("colore liturgico", "conferenza episcopale"))
+                or r.startswith(("Parola del Signore", "Parola di Dio", "Si dice il Credo"))):
+            break
+        out.append(r)
+    return out
+
+
+def riferimento(corpo):
+    for r in corpo[:8]:
+        m = re.match(r"^((?:Mt|Mc|Lc|Gv)\s*\d[\d,\.\-–a-z ]*)$", r)
+        if m:
+            return m.group(1).strip()
+    return ""
+
+
+def fonte_e_testo(corpo):
+    corpo = taglia(corpo)
+    fonte = ""
     for i, r in enumerate(corpo):
-        if r.lower().startswith("dal vangelo secondo"):
-            if i + 1 < len(corpo):
-                rif = corpo[i + 1]
-            testo = corpo[i + 2 :]
+        if r.lower().startswith(("dal ", "dalla ", "dall'", "dall’")):
+            fonte = r
+            corpo = corpo[i + 1 :]
             break
-    else:
-        m = re.search(r"\b(?:Mt|Mc|Lc|Gv)\s*\d+[\d,\.\-–a-z]*", " ".join(corpo[:4]))
-        rif = m.group(0) if m else ""
-    fine = []
-    for r in testo:
-        if r.startswith(("Parola del Signore", "Parola di Dio", "Si dice il Credo")):
-            break
-        fine.append(r)
-    return rif.strip(), "\n".join(fine).strip()
+    testo = []
+    for r in corpo:
+        if r in {".", "(", ")"} or re.match(r"^[A-Za-zÀ-ú]{1,4}\s*\d", r):
+            continue  # riferimenti biblici e segni tipografici
+        testo.append(r)
+    return fonte, "\n".join(testo).strip()
 
 
 def celebrazione(righe):
-    """Nome della celebrazione e colore liturgico: la riga prima e dopo 'Colore liturgico'."""
     for i, r in enumerate(righe):
         if norm(r) == "colore liturgico" and i >= 1 and i + 1 < len(righe):
             nome = re.sub(r"\(.*?\)", "", righe[i - 1]).strip()
@@ -113,31 +133,94 @@ def tipo(nome):
     return "Feria"
 
 
-def main():
-    giorno = data_oggi()
-    html = scarica(giorno)
-    righe, _ = righe_da_html(html)
+def costruisci_voce(giorno, righe):
+    """Ricava la voce di un giorno dalle righe della pagina. Ritorna None se non c'è il Vangelo."""
     sezioni = estrai(righe)
-    corpo = next((c for n, c in (sezioni or []) if n == "Vangelo"), None)
-    if not corpo:
-        open("debug.html", "w", encoding="utf-8").write(html)
-        open("debug.txt", "w", encoding="utf-8").write("\n".join(righe))
-        print("Vangelo non trovato: salvati debug.html e debug.txt", file=sys.stderr)
-        sys.exit(1)
+    if not sezioni:
+        return None
+    viste = {}
+    colletta = 0
+    for nome, corpo in sezioni:
+        if nome == "Colletta":
+            colletta += 1
+            if colletta > 1:  # inizia la messa successiva: non la leggiamo
+                break
+        if nome in LETTURE and nome not in viste:
+            viste[nome] = corpo
+    if "Vangelo" not in viste:
+        return None
 
-    rif, testo = pulisci_vangelo(corpo)
-    nome, colore = celebrazione(righe)
-    out = {
+    letture = []
+    for nome in LETTURE:
+        if nome not in viste:
+            continue
+        fonte, testo = fonte_e_testo(viste[nome])
+        voce = {"nome": nome, "fonte": fonte, "testo": testo}
+        if nome == "Vangelo":
+            voce["riferimento"] = riferimento(viste[nome])
+        letture.append(voce)
+
+    vangelo = next(l for l in letture if l["nome"] == "Vangelo")
+    nome_cel, colore = celebrazione(righe)
+    return {
         "data": giorno.isoformat(),
-        "celebrazione": nome,
-        "tipo": tipo(nome),
+        "celebrazione": nome_cel,
+        "tipo": tipo(nome_cel),
         "colore": colore,
-        "riferimento": rif,
-        "vangelo": testo,
+        "riferimento": vangelo.get("riferimento", ""),
+        "vangelo": vangelo["testo"],
+        "letture": letture,
     }
-    with open("vangelo.json", "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=1)
-    print("OK", out["data"], out["tipo"], out["riferimento"])
+
+
+def leggi_range(inizio, fine):
+    giorni, falliti = [], []
+    g = inizio
+    while g <= fine:
+        try:
+            voce = costruisci_voce(g, righe_da_html(scarica(g)))
+        except Exception as e:
+            print("Errore", g, e, file=sys.stderr)
+            voce = None
+        if voce:
+            giorni.append(voce)
+        else:
+            falliti.append(g.isoformat())
+        g += dt.timedelta(days=1)
+        time.sleep(PAUSA)
+    return giorni, falliti
+
+
+def scrivi(nome, dati):
+    with open(nome, "w", encoding="utf-8") as f:
+        json.dump(dati, f, ensure_ascii=False, indent=1)
+
+
+def main():
+    oggi = dt.datetime.now(ROMA).date()
+
+    prossimi, falliti = leggi_range(oggi, oggi + dt.timedelta(days=GIORNI_PROSSIMI - 1))
+    if not prossimi:
+        print("Nessun giorno letto: controlla la pagina", file=sys.stderr)
+        sys.exit(1)
+    scrivi("vangelo.json", {
+        "generato": dt.datetime.now(ROMA).isoformat(timespec="minutes"),
+        "giorni": prossimi,
+    })
+    print("OK prossimi giorni:", len(prossimi), "saltati:", falliti)
+
+    file_anno = Path(f"anno_{oggi.year}.json")
+    if not file_anno.exists():
+        inizio = dt.date(oggi.year, 1, 1)
+        fine = dt.date(oggi.year, 12, 31)
+        tutti, falliti = leggi_range(inizio, fine)
+        totale = (fine - inizio).days + 1
+        if len(tutti) >= 0.9 * totale:
+            scrivi(file_anno.name, {"anno": oggi.year, "giorni": tutti})
+            print("OK anno", oggi.year, len(tutti), "giorni su", totale)
+        else:
+            print("Anno incompleto, riprovo al prossimo run:", len(tutti), "su", totale,
+                  file=sys.stderr)
 
 
 if __name__ == "__main__":
