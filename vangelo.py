@@ -1,4 +1,4 @@
-"""Scarica la liturgia del giorno da chiesacattolica.it (testo CEI) e scrive vangelo.json."""
+"""Scarica la liturgia del giorno da chiesacattolica.it e scrive vangelo.json (solo il Vangelo, versione compatta per widget)."""
 import json
 import re
 import sys
@@ -11,7 +11,6 @@ from bs4 import BeautifulSoup
 URL = "https://www.chiesacattolica.it/liturgia-del-giorno/?data-liturgia={d}"
 ROMA = ZoneInfo("Europe/Rome")
 
-# etichette delle sezioni (normalizzate: minuscolo, senza punteggiatura)
 SEZIONI = {
     "antifona d ingresso": "Antifona d'ingresso",
     "antifona di ingresso": "Antifona d'ingresso",
@@ -37,10 +36,9 @@ def norm(riga):
     return re.sub(r"\s+", " ", r).strip()
 
 
-def data_target():
-    ora = dt.datetime.now(ROMA)
-    # dopo mezzogiorno (es. 23:05 ora di Roma) si prepara già il giorno dopo
-    return (ora + dt.timedelta(days=1)).date() if ora.hour >= 12 else ora.date()
+def data_oggi():
+    # la data è quella di oggi a Roma: il run di mezzanotte prepara il giorno appena iniziato
+    return dt.datetime.now(ROMA).date()
 
 
 def scarica(giorno):
@@ -64,7 +62,6 @@ def righe_da_html(html):
 
 def estrai(righe):
     marcatori = [(i, SEZIONI[norm(r)]) for i, r in enumerate(righe) if norm(r) in SEZIONI]
-    # si parte dalla prima sezione "vera" (scarta voci di menu prima del contenuto)
     start = next((k for k, (_, nome) in enumerate(marcatori) if nome in INIZIO), None)
     if start is None:
         return None
@@ -78,34 +75,69 @@ def estrai(righe):
     return sezioni
 
 
+def pulisci_vangelo(corpo):
+    """Restituisce (riferimento, testo): via monizione, intestazione del brano e formula finale."""
+    rif, testo = "", corpo
+    for i, r in enumerate(corpo):
+        if r.lower().startswith("dal vangelo secondo"):
+            if i + 1 < len(corpo):
+                rif = corpo[i + 1]
+            testo = corpo[i + 2 :]
+            break
+    else:
+        m = re.search(r"\b(?:Mt|Mc|Lc|Gv)\s*\d+[\d,\.\-–a-z]*", " ".join(corpo[:4]))
+        rif = m.group(0) if m else ""
+    fine = []
+    for r in testo:
+        if r.startswith(("Parola del Signore", "Parola di Dio", "Si dice il Credo")):
+            break
+        fine.append(r)
+    return rif.strip(), "\n".join(fine).strip()
+
+
+def celebrazione(righe):
+    """Nome della celebrazione e colore liturgico: la riga prima e dopo 'Colore liturgico'."""
+    for i, r in enumerate(righe):
+        if norm(r) == "colore liturgico" and i >= 1 and i + 1 < len(righe):
+            nome = re.sub(r"\(.*?\)", "", righe[i - 1]).strip()
+            return nome, righe[i + 1].strip().lower()
+    return "", ""
+
+
+def tipo(nome):
+    n = nome.lower()
+    for chiave, etichetta in [("solennit", "Solennità"), ("festa", "Festa"),
+                              ("memoria", "Memoria"), ("domenica", "Domenica")]:
+        if chiave in n:
+            return etichetta
+    return "Feria"
+
+
 def main():
-    giorno = data_target()
+    giorno = data_oggi()
     html = scarica(giorno)
-    righe, soup = righe_da_html(html)
+    righe, _ = righe_da_html(html)
     sezioni = estrai(righe)
-    vangelo = next(((n, c) for n, c in (sezioni or []) if n == "Vangelo"), None)
-    if not vangelo:
+    corpo = next((c for n, c in (sezioni or []) if n == "Vangelo"), None)
+    if not corpo:
         open("debug.html", "w", encoding="utf-8").write(html)
         open("debug.txt", "w", encoding="utf-8").write("\n".join(righe))
         print("Vangelo non trovato: salvati debug.html e debug.txt", file=sys.stderr)
         sys.exit(1)
 
-    corpo = vangelo[1]
-    rif = re.search(r"\b(?:Mt|Mc|Lc|Gv)\s*\d+[\d,\.\-–a-z\s]*", " ".join(corpo[:4]))
-    h = soup.find(["h1", "h2"])
+    rif, testo = pulisci_vangelo(corpo)
+    nome, colore = celebrazione(righe)
     out = {
         "data": giorno.isoformat(),
-        "titolo": h.get_text(" ", strip=True) if h else "",
-        "riferimento": rif.group(0).strip() if rif else "",
-        "vangelo": "\n".join(corpo),
-        "resto": "\n\n".join(
-            n.upper() + "\n" + "\n".join(c) for n, c in sezioni if n != "Vangelo"
-        ),
-        "generato": dt.datetime.now(ROMA).isoformat(timespec="minutes"),
+        "celebrazione": nome,
+        "tipo": tipo(nome),
+        "colore": colore,
+        "riferimento": rif,
+        "vangelo": testo,
     }
     with open("vangelo.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print("OK", out["data"], out["riferimento"])
+    print("OK", out["data"], out["tipo"], out["riferimento"])
 
 
 if __name__ == "__main__":
