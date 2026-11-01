@@ -1,0 +1,32 @@
+name: vangelo
+on:
+  schedule:
+    # 22:05 e 23:05 UTC = mezzanotte circa a Roma sia con ora legale sia con ora solare
+    - cron: "5 22 * * *"
+    - cron: "5 23 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - run: python vangelo.py
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: debug
+          path: |
+            debug.html
+            debug.txt
+      - name: Salva vangelo.json
+        run: |
+          git config user.name "vangelo-bot"
+          git config user.email "vangelo-bot@users.noreply.github.com"
+          git add vangelo.json
+          git diff --cached --quiet || (git commit -m "aggiorna vangelo" && git push)
