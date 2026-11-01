@@ -1,15 +1,18 @@
 name: vangelo
 on:
   schedule:
-    # 22:05 e 23:05 UTC = mezzanotte circa a Roma sia con ora legale sia con ora solare
     - cron: "5 22 * * *"
     - cron: "5 23 * * *"
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: vangelo
+  cancel-in-progress: false
 jobs:
   aggiorna:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,9 +27,9 @@ jobs:
           path: |
             debug.html
             debug.txt
-      - name: Salva vangelo.json
+      - name: Salva i file JSON
         run: |
           git config user.name "vangelo-bot"
           git config user.email "vangelo-bot@users.noreply.github.com"
-          git add vangelo.json
-          git diff --cached --quiet || (git commit -m "aggiorna vangelo" && git push)
+          git add -A -- '*.json'
+          git diff --cached --quiet || (git commit -m "aggiorna liturgia" && git push)
